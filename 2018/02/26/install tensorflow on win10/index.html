@@ -140,7 +140,7 @@
 <meta property="og:site_name" content="Jyy&#39;s Blog">
 <meta property="og:description" content="1 Install CUDA and cuDNNDownload CUDA Toolkit and cuDNN. Choose the version your GPU support. 2 Install Anaconda2.1 Download and install AnacondaDownload Anaconda here and tick “Add Anaconda to my PAT">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-02-27T07:00:32.712Z">
+<meta property="og:updated_time" content="2018-02-27T07:41:16.064Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Install Tensorflow on Windows 10">
 <meta name="twitter:description" content="1 Install CUDA and cuDNNDownload CUDA Toolkit and cuDNN. Choose the version your GPU support. 2 Install Anaconda2.1 Download and install AnacondaDownload Anaconda here and tick “Add Anaconda to my PAT">
@@ -361,7 +361,7 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2018-02-27T15:00:32+08:00">
+              <time title="Post modified" itemprop="dateModified" datetime="2018-02-27T15:41:16+08:00">
                 2018-02-27
               </time>
             
@@ -416,15 +416,14 @@
       
         <h3 id="1-Install-CUDA-and-cuDNN"><a href="#1-Install-CUDA-and-cuDNN" class="headerlink" title="1 Install CUDA and cuDNN"></a>1 <strong>Install CUDA and cuDNN</strong></h3><p>Download <a href="https://developer.nvidia.com/cuda-toolkit" target="_blank" rel="noopener">CUDA Toolkit</a> and <a href="https://developer.nvidia.com/cudnn" target="_blank" rel="noopener">cuDNN</a>. Choose the version your GPU support.</p>
 <h3 id="2-Install-Anaconda"><a href="#2-Install-Anaconda" class="headerlink" title="2 Install Anaconda"></a>2 <strong>Install Anaconda</strong></h3><h4 id="2-1-Download-and-install-Anaconda"><a href="#2-1-Download-and-install-Anaconda" class="headerlink" title="2.1 Download and install Anaconda"></a>2.1 <strong>Download and install Anaconda</strong></h4><p>Download Anaconda <a href="https://www.anaconda.com/download/" target="_blank" rel="noopener">here</a> and tick “<strong>Add Anaconda to my PATh environment variable</strong>“ during installing.</p>
-<h4 id="2-2-Switch-the-software-source-of-pip-and-conda"><a href="#2-2-Switch-the-software-source-of-pip-and-conda" class="headerlink" title="2.2 Switch the software source of pip and conda"></a>2.2 <strong>Switch the software source of pip and conda</strong></h4><p>Domestic mirrors can accelerate the download speed of installing packages using pip and conda.<br>There are some mirrors in China for both pip and conda.</p>
+<h4 id="2-2-Switch-the-software-source-of-pip-and-conda"><a href="#2-2-Switch-the-software-source-of-pip-and-conda" class="headerlink" title="2.2 Switch the software source of pip and conda"></a>2.2 <strong>Switch the software source of pip and conda</strong></h4><p>Domestic mirrors can accelerate the download speed of installing packages using pip and conda.<br>There are some mirrors in China for both pip and conda.<br><a id="more"></a></p>
 <h4 id="2-2-1-Pip"><a href="#2-2-1-Pip" class="headerlink" title="2.2.1 Pip"></a>2.2.1 <strong>Pip</strong></h4><p><strong>Pip source</strong>:</p>
 <pre><code>1. 阿里云 http://mirrors.aliyun.com/pypi/simple/ 
 2. 中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/ 
 3. 豆瓣(douban) http://pypi.douban.com/simple/ 
 4. 清华大学 https://pypi.tuna.tsinghua.edu.cn/simple/ 
 5. 中国科学技术大学 http://pypi.mirrors.ustc.edu.cn/simple/
-</code></pre><a id="more"></a>
-<p><strong>Temporary change source</strong>: add <code>-i</code> after the command line.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install package_name -i https://pypi.tuna.tsinghua.edu.cn/simple/</span><br></pre></td></tr></table></figure></p>
+</code></pre><p><strong>Temporary change source</strong>: add <code>-i</code> after the command line.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install package_name -i https://pypi.tuna.tsinghua.edu.cn/simple/</span><br></pre></td></tr></table></figure></p>
 <p>pip install package_name -i <a href="https://pypi.tuna.tsinghua.edu.cn/simple/" target="_blank" rel="noopener">https://pypi.tuna.tsinghua.edu.cn/simple/</a></p>
 <p><strong>Permenent change source</strong></p>
 <h5 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a><strong>Linux</strong></h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo vi ~/.pip/pip.conf</span><br><span class="line"><span class="comment"># Change the file to</span></span><br><span class="line">[global]</span><br><span class="line">index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br></pre></td></tr></table></figure>
@@ -748,6 +747,8 @@
   
 
 
+  
+
 
 
 
@@ -786,6 +787,11 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 
