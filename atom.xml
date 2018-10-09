@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://fdujyy.github.io/"/>
-  <updated>2018-10-09T11:55:13.161Z</updated>
+  <updated>2018-10-09T12:06:18.851Z</updated>
   <id>https://fdujyy.github.io/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="https://fdujyy.github.io/2018/10/09/Hello/"/>
     <id>https://fdujyy.github.io/2018/10/09/Hello/</id>
     <published>2018-10-09T11:54:07.000Z</published>
-    <updated>2018-10-09T11:55:13.161Z</updated>
+    <updated>2018-10-09T12:06:18.851Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello! Hexo!"></a>Hello! Hexo!</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello! Hexo!"></a>Hello! Hexo!</h1><p>This is my test blog.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;Hello-Hexo&quot;&gt;&lt;a href=&quot;#Hello-Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hello! Hexo!&quot;&gt;&lt;/a&gt;Hello! Hexo!&lt;/h1&gt;
+        &lt;h1 id=&quot;Hello-Hexo&quot;&gt;&lt;a href=&quot;#Hello-Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hello! Hexo!&quot;&gt;&lt;/a&gt;Hello! Hexo!&lt;/h1&gt;&lt;p&gt;This is my test blog.&lt;/p&gt;
+
       
     
     </summary>
