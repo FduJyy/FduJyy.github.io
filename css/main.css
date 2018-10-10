@@ -1139,7 +1139,8 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background-image: url("/images/header.jpg");
+  background-image: url("/images/Sicily-Morocco-and-Seville-Banner-1.jpg");
+  height: 390px;
 }
 .header-inner {
   position: relative;
@@ -1881,7 +1882,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3dba9a;
+  background: #8a06ff;
 }
 .links-of-blogroll {
   font-size: 13px;
