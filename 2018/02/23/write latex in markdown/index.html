@@ -140,7 +140,7 @@
 <meta property="og:site_name" content="Jyy&#39;s Blog">
 <meta property="og:description" content="1 Install and adopt kramdown gemInstall kramdown using gem.1gem install kramdown Add content below to _config.yml to adopt kramdown1markdown: kramdown">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-02-27T07:00:52.907Z">
+<meta property="og:updated_time" content="2018-10-10T08:32:59.013Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Show latex equations in markdowns for jekyll">
 <meta name="twitter:description" content="1 Install and adopt kramdown gemInstall kramdown using gem.1gem install kramdown Add content below to _config.yml to adopt kramdown1markdown: kramdown">
@@ -361,8 +361,8 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2018-02-27T15:00:52+08:00">
-                2018-02-27
+              <time title="Post modified" itemprop="dateModified" datetime="2018-10-10T16:32:59+08:00">
+                2018-10-10
               </time>
             
           </span>
@@ -411,7 +411,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  339
+                  263
                 </span>
               
 
@@ -441,8 +441,24 @@
 <a id="more"></a>
 <h3 id="2-Edit-corresponding-html-file"><a href="#2-Edit-corresponding-html-file" class="headerlink" title="2 Edit corresponding html file"></a><strong>2 Edit corresponding html file</strong></h3><p>Insert the code below in <code>/_includes/header.html</code> between <code>&lt;head&gt;</code> and <code>&lt;/head&gt;</code>. The filename might differ in other frameworks.<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/x-mathjax-config"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">  MathJax.Hub.Config(&#123;</span></span><br><span class="line"><span class="undefined">    tex2jax: &#123;</span></span><br><span class="line"><span class="undefined">      inlineMath: [ ['$','$'], ["\\(","\\)"] ],</span></span><br><span class="line"><span class="undefined">      processEscapes: true</span></span><br><span class="line"><span class="undefined">    &#125;</span></span><br><span class="line"><span class="undefined">  &#125;);</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/x-mathjax-config"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">    MathJax.Hub.Config(&#123;</span></span><br><span class="line"><span class="undefined">      tex2jax: &#123;</span></span><br><span class="line"><span class="undefined">        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']</span></span><br><span class="line"><span class="undefined">      &#125;</span></span><br><span class="line"><span class="undefined">    &#125;);</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/x-mathjax-config"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">    MathJax.Hub.Queue(function() &#123;</span></span><br><span class="line"><span class="undefined">        var all = MathJax.Hub.getAllJax(), i;</span></span><br><span class="line"><span class="xml">        for(i=0; i <span class="tag">&lt; <span class="attr">all.length</span>; <span class="attr">i</span> += <span class="string">1)</span> &#123;</span></span></span><br><span class="line"><span class="undefined">            all[i].SourceElement().parentNode.className += ' has-jax';</span></span><br><span class="line"><span class="undefined">        &#125;</span></span><br><span class="line"><span class="undefined">    &#125;);</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span></span></span><br><span class="line"><span class="tag">   <span class="attr">src</span>=<span class="string">"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
 <h3 id="3-Example"><a href="#3-Example" class="headerlink" title="3 Example"></a><strong>3 Example</strong></h3><p>Input the code below in the markdown and we get the corresponding equation on the webpage.<br><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="formula">$$</span></span><br><span class="line"><span class="formula"><span class="tag">\<span class="name">begin</span><span class="string">&#123;aligned&#125;</span></span></span></span><br><span class="line"><span class="formula">  <span class="tag">\<span class="name">phi</span></span>(x,y) = <span class="tag">\<span class="name">phi</span></span> <span class="tag">\<span class="name">left</span></span>(<span class="tag">\<span class="name">sum</span></span>_&#123;i=1&#125;^n x_ie_i, <span class="tag">\<span class="name">sum</span></span>_&#123;j=1&#125;^n y_je_j <span class="tag">\<span class="name">right</span></span>)</span></span><br><span class="line"><span class="formula">  =&amp; <span class="tag">\<span class="name">sum</span></span>_&#123;i=1&#125;^n <span class="tag">\<span class="name">sum</span></span>_&#123;j=1&#125;^n x_i y_j <span class="tag">\<span class="name">phi</span></span>(e_i, e_j) </span></span><br><span class="line"><span class="formula">  =&amp; (x_1, <span class="tag">\<span class="name">ldots</span></span>, x_n) <span class="tag">\<span class="name">left</span></span>( <span class="tag">\<span class="name">begin</span><span class="string">&#123;array&#125;</span><span class="string">&#123;ccc&#125;</span></span></span></span><br><span class="line"><span class="formula">      <span class="tag">\<span class="name">phi</span></span>(e_1, e_1) &amp; <span class="tag">\<span class="name">cdots</span></span> &amp; <span class="tag">\<span class="name">phi</span></span>(e_1, e_n) <span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">      <span class="tag">\<span class="name">vdots</span></span> &amp; <span class="tag">\<span class="name">ddots</span></span> &amp; <span class="tag">\<span class="name">vdots</span></span> <span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">      <span class="tag">\<span class="name">phi</span></span>(e_n, e_1) &amp; <span class="tag">\<span class="name">cdots</span></span> &amp; <span class="tag">\<span class="name">phi</span></span>(e_n, e_n)</span></span><br><span class="line"><span class="formula">    <span class="tag">\<span class="name">end</span><span class="string">&#123;array&#125;</span></span> <span class="tag">\<span class="name">right</span></span>)</span></span><br><span class="line"><span class="formula">  <span class="tag">\<span class="name">left</span></span>( <span class="tag">\<span class="name">begin</span><span class="string">&#123;array&#125;</span><span class="string">&#123;c&#125;</span></span></span></span><br><span class="line"><span class="formula">      y_1 <span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">      <span class="tag">\<span class="name">vdots</span></span> <span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">      y_n</span></span><br><span class="line"><span class="formula">    <span class="tag">\<span class="name">end</span><span class="string">&#123;array&#125;</span></span> <span class="tag">\<span class="name">right</span></span>)</span></span><br><span class="line"><span class="formula"><span class="tag">\<span class="name">end</span><span class="string">&#123;align*&#125;</span></span></span></span><br><span class="line"><span class="formula">$$</span></span><br></pre></td></tr></table></figure></p>
-<h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>$$<br>\begin{equation}<br>\begin{aligned}<br>  \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)<br>  &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) \\<br>  &amp;= (x_1, \ldots, x_n) \left( \begin{array}{ccc}<br>      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\<br>      \vdots &amp; \ddots &amp; \vdots \\<br>      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)<br>    \end{array} \right)<br>  \left( \begin{array}{c}<br>      y_1 \\<br>      \vdots \\<br>      y_n<br>    \end{array} \right)<br>\end{aligned}<br>\end{equation}<br>\label{eq1}<br>$$</p>
-
+<h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><script type="math/tex; mode=display">
+\begin{equation}
+\begin{aligned}
+  \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) \\
+  &= (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{aligned}
+\end{equation}
+\label{eq1}</script>
       
     </div>
     
@@ -697,7 +713,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">773</span>
+    <span title="Site words total count">697</span>
   
 </div>
 
