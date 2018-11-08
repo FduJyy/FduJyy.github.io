@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://fdujyy.github.io/"/>
-  <updated>2018-10-18T08:31:30.248Z</updated>
+  <updated>2018-11-08T01:25:31.299Z</updated>
   <id>https://fdujyy.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://fdujyy.github.io/2018/11/08/test/"/>
+    <id>https://fdujyy.github.io/2018/11/08/test/</id>
+    <published>2018-11-08T01:23:21.000Z</published>
+    <updated>2018-11-08T01:25:31.299Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2><p><img src="/2018/11/08/test/federer-usopen-preview-2018-friday.jpg" alt="img missing" title="Roger Federer"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Test&quot;&gt;&lt;a href=&quot;#Test&quot; class=&quot;headerlink&quot; title=&quot;Test&quot;&gt;&lt;/a&gt;Test&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2018/11/08/test/federer-usopen-preview-2018-friday.
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Insert Videos and Picture in Hexo</title>
